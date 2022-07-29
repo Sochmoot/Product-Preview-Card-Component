@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;500;700&family=Outfit&family=Red+Hat+Display:wght@600;700;900&family=Sacramento&display=swap');
 
 
 :root {
@@ -28,15 +29,17 @@ body {
 }
 
 .sub-container-1 img {
-  height: 400px;
+  height: 450px;
   width: 300px;
+  border-radius: 10px 0 0 10px;
 }
 
 .sub-container-2 {
-  height: 400px;
-  width: 300px;
+  height: 450px;
+  width: 250px;
   background-color: white;
-  padding: 0 0 0 20px;
+  padding: 0 20px 0 20px;
+  border-radius: 0 10px 10px 0;
 }
 
 .sub-container-2 h3 {
@@ -54,6 +57,28 @@ body {
   justify-content: space-between;
 }
 
+.pricing-container h1 {
+  color: var(--Dark-cyan);
+}
+
 .pricing-container p {
   text-decoration: line-through;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px
+}
+
+
+.btn-purchase {
+  border: none;
+  color: var(--White);
+  background-color: var(--Dark-cyan);
+  width: 220px;
+  height: 50px;
+  border-radius: 10px;
+
 }
