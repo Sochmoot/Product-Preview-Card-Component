@@ -44,6 +44,7 @@ body {
 
 .sub-container-2 h3 {
   color: var(--Dark-grayish-blue);
+  letter-spacing: 2px;
 }
 
 .sub-container-2 p {
@@ -74,11 +75,17 @@ body {
 
 
 .btn-purchase {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
   border: none;
   color: var(--White);
   background-color: var(--Dark-cyan);
   width: 220px;
   height: 50px;
   border-radius: 10px;
+  padding-left: 50px;
+  padding-right: 60px;
 
 }
