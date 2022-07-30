@@ -32,6 +32,10 @@ body {
   display: flex;
 }
 
+.sub-container-1 {
+  width: 250px;
+}
+
 .sub-container-1 img {
   height: 450px;
   width: 300px;
@@ -111,4 +115,45 @@ body {
 .btn-purchase:hover {
   background-color: var(--Very-dark-blue);
   cursor: pointer;
+}
+
+@media all and (max-width: 480px) {
+  .flex-container {
+    display: block;
+
+  }
+  .sub-container-1 {
+    height: 250px;
+    width: 375px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+  }
+
+  .sub-container-1 img {
+    width: 375px;
+  }
+
+  .sub-container-2 {
+    width: 305px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    line-height: 1;
+    border-radius: 0 0 10px 10px;
+  
+
+
+  }
+
+  .sub-container-2 h3 {}
+
+  .sub-container-2 h1 {
+    margin: 0 0 0 0;
+  }
+  .btn-purchase {
+    width: 310px;
+    margin: 0 auto 0 auto;
+  }
 }
